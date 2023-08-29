@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/Group 71.png';
-import sheLogo from '../assets/she-logo.png';
+import codieLogo from '../assets/codie-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -125,16 +125,16 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>S-H-E | buildspace </title>
+        <title>CODIE | buildspace </title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>S-H-E: Decoding the Female Psyche</h1>
+            <h1>CODIE: Dustin's sweet Goddess</h1>
           </div>
-          <Image src={sheLogo} alt="Pretty girl" />
+          <Image src={codieLogo} alt="Pretty girl" />
           <div className="header-subtitle">
-            <h2>Delving into Women's Minds and Enhancing Understanding</h2>
+            <h2>Digging out codie's guts one pound at a time</h2>
           </div>
         </div>
         <audio
@@ -145,7 +145,7 @@ const Home = () => {
         />
         <div className="prompt-container">
           <textarea
-            placeholder="Hello I am  S-H-E, Shall I Fuck with your head?"
+            placeholder="Hello how much does dustin like you just ask?"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -172,7 +172,7 @@ const Home = () => {
                 {isGenerating ? (
                   <span className="loader"></span>
                 ) : (
-                  <p>Confuse Me</p>
+                  <p>Woo Me</p>
                 )}
               </div>
             </a>
@@ -183,7 +183,7 @@ const Home = () => {
             <div className="prompt-buttons">
               <a className="generate-button" onClick={stopPlaying}>
                 <div className="generate">
-                  <p>Stop</p>
+                  <p>Stop i'm wet</p>
                 </div>
               </a>
             </div>
