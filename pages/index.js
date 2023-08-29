@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/Group 71.png';
 import codieLogo from '../assets/codie-logo.png';
 import { useState } from 'react';
 
@@ -208,7 +207,6 @@ const Home = () => {
         <a
           href="https://www.buymeacoffee.com/guttermademedia" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
             <p>Help me build this project</p>
           </div>
           <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
