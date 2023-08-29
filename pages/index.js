@@ -211,6 +211,7 @@ const Home = () => {
             <Image src={buildspaceLogo} alt="buildspace logo" />
             <p>Help me build this project</p>
           </div>
+          <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
         </a>
       </div>
     </div>
