@@ -135,7 +135,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1 style={{textshadow: purple}}>CODIE: Dustin's sweet Goddess</h1>
+            <h1>CODIE: Dustin's Sweet Goddess</h1>
           </div>
           <div classname="logo-container">
           <Image style={imageStyle} src={codieLogo} alt="Pretty girl" />
@@ -143,7 +143,7 @@ const Home = () => {
           <Image style={imageStyle} src={codie4Logo} alt="Pretty girl" />
           </div>
           <div className="header-subtitle">
-            <h2>Digging out codie's guts one pound at a time</h2>
+            <h2>Digging out Codie's guts one pound at a time</h2>
           </div>
         </div>
         <audio
@@ -154,7 +154,7 @@ const Home = () => {
         />
         <div className="prompt-container">
           <textarea
-            placeholder="Hello how much does dustin like you just ask?"
+            placeholder="Hello how much does Dustin like you? just ask?"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
