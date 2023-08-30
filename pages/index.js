@@ -135,7 +135,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1 style={{textShadow: purple}}>CODIE: Dustin's sweet Goddess</h1>
+            <h1>CODIE: Dustin's sweet Goddess</h1>
           </div>
           <div className="logo-container">
           <Image style={imageStyle} src={codieLogo} alt="Pretty girl" />
