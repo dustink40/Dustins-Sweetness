@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import codieLogo from '../assets/codie-logo.png';
 import codie2Logo from '../assets/codie2-logo.png';
-import codie4Logo from '../assets/codie4-logo.png';
+import trueloveLogo from '../assets/truelove-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -135,19 +135,19 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1 style={{textShadow: "#800080"}}>CODIE: Dustin's Sweet Goddess</h1>
+            <h1 style={{textShadow: "#800080"}}>CODIE: God's Gift to Dustin</h1>
           </div>
           <div classname="logo-container">
           <Image style={imageStyle} src={codieLogo} alt="Pretty girl" />
           <Image style={imageStyle} src={codie2Logo} alt="Pretty girl" />
-          <Image style={imageStyle} src={codie4Logo} alt="Pretty girl" />
+          <Image style={imageStyle} src={trueloveLogo} alt="Pretty girl" />
           </div>
           <div className="header-subtitle">
-            <h2>Digging out Codie's guts one pound at a time</h2>
+            <h2>Digging in Codie's guts like a gardner, If she starts screaming i'ma dig a little harder</h2>
           </div>
         </div>
         <audio
-          src={`/kash2.mp3`}
+          src={`/nobody.mp3`}
           onCanPlay={(e) => e.target.volume = 0.2}
 
           ref={(el) => { setAudio(el); }}
