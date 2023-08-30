@@ -15,6 +15,10 @@ const Home = () => {
   const [audio, setAudio] = useState(null);
   const [volume, setVolume] = useState(0.3);
 
+  const imageStyle = {
+    margin: 10,
+  }
+
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
 
@@ -134,9 +138,9 @@ const Home = () => {
             <h1>CODIE: Dustin's sweet Goddess</h1>
           </div>
           <div classname="logo-container">
-          <Image style={{margin: 10}} src={codieLogo} alt="Pretty girl" />
-          <Image style={{margin: 10}} src={codie2Logo} alt="Pretty girl" />
-          <Image style={{margin: 10}} src={codie4Logo} alt="Pretty girl" />
+          <Image style={imageStyle} src={codieLogo} alt="Pretty girl" />
+          <Image style={imageStyle} src={codie2Logo} alt="Pretty girl" />
+          <Image style={imageStyle} src={codie4Logo} alt="Pretty girl" />
           </div>
           <div className="header-subtitle">
             <h2>Digging out codie's guts one pound at a time</h2>
