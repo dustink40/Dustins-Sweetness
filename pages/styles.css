@@ -57,6 +57,8 @@ body {
 }
 
 .header-title h1 {
+    text-shadow: purple;
+    box-shadow: blue;
     width: 100%;
     font-weight: 700;
     font-size: 72px;
