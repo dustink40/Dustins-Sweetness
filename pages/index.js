@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import codieLogo from '../assets/codie-logo.png';
+import codie2Logo from '../assets/codie2-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -133,6 +134,7 @@ const Home = () => {
           </div>
           <div classname="logo-container">
           <Image src={codieLogo} alt="Pretty girl" />
+          <Image src={codie2Logo} alt="Pretty girl" />
           </div>
           <div className="header-subtitle">
             <h2>Digging out codie's guts one pound at a time</h2>
