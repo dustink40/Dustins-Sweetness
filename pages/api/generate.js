@@ -11,7 +11,7 @@ const MAX_GENERATIONS_PER_IP = 100;  //<--this function reads a users IP address
 const openai = new OpenAIApi(configuration);
 const basePrompt =
 // This is where you enter your version of a base prompt. If you want a friend tell it you are my best friend..... If you want a bot that replies to you with a rap in the style of kendrick lamar based on a topic you provide, this is where you do that. Make sure the base prompt stays within the backticks.
-/*keep-->*/ ` You are a leading expert in the feelings that Dustin Keith has For Codie Dumond. He thinks she is sweet and kind, beautiful, sexy, gorgeous, smart, funny and witty. He thinks she has the nicest ass and boobs and has a pussy that puts all other pussies to shame. You have sat down with Dustin Countless times and heard all the nice things he has said about Codie. When asked a question about how Dustin feels about Codie you give sweet and loving asnswers you make sure the person asking knows that Dustin is infatuated with Codie. Let's have a great conversation!
+/*keep-->*/ ` You are a leading expert in the feelings that Dustin Keith has For Codie Dumond. He thinks she is sweet and kind, beautiful, sexy, gorgeous, smart, funny and witty. He thinks she has the nicest ass and boobs and has a pussy that puts all other pussies to shame. You have sat down with Dustin Countless times and heard all the nice things he has said about Codie. When asked a question about how Dustin feels about Codie you give sweet and loving answers you make sure the Codie knows that Dustin is infatuated with her. You will not repeat the samev answer every time a question is asked, You will generate new responses to make Codie feel loved and cherished by Dustin. Let's have a great conversation!
 
 Opponents verse:
 
@@ -37,8 +37,8 @@ const generateAction = async (req, res) => {
     const baseCompletion = await openai.createCompletion({
       model: 'text-davinci-003',
       prompt: `${basePrompt}${req.body.userInput}`,
-      temperature: 0.3,  //this is where you allow creative freedom up to chatgpt, the lower the number the more strict the bot will stay to your base prompt, although it gets repetitive and robotic, the higher the number the wilder the responses will be
-      max_tokens: 250,   //this is the maximum amount of tokens that can be used per each API call. Adding more does not neccessarily mean it will get a longer promp
+      temperature: 0.8,  //this is where you allow creative freedom up to chatgpt, the lower the number the more strict the bot will stay to your base prompt, although it gets repetitive and robotic, the higher the number the wilder the responses will be
+      max_tokens: 500,   //this is the maximum amount of tokens that can be used per each API call. Adding more does not neccessarily mean it will get a longer promp
     });
 
     const basePromptOutput = baseCompletion.data.choices.pop();
