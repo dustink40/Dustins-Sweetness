@@ -7,8 +7,8 @@ body {
     color: #fff;
 }
 
-img {
-    margin: 10px;
+.logo-container image {
+    margin: 20px;
 }
 
 .label{
