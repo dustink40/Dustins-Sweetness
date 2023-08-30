@@ -57,6 +57,8 @@ body {
 }
 
 .header-title h1 {
+    color: rgb(247, 26, 62);
+    text-shadow: 15px 15px 12px purple;
     width: 100%;
     font-weight: 700;
     font-size: 72px;
@@ -72,6 +74,7 @@ body {
     font-weight: 400;
     line-height: 1.4em;
     color: rgb(245, 120, 141);
+    text-shadow: 15px 15px 12px rgb(52, 52, 129);
 }
 
 .prompt-container {
@@ -87,6 +90,7 @@ body {
 }
 
 .prompt-box {
+    box-shadow: 15px 15px 12px greenyellow;
     border-bottom-width: 1px;
     border-color: rgba(255, 255, 255, 0.1);
     border-left-width: 1px;
