@@ -131,7 +131,9 @@ const Home = () => {
           <div className="header-title">
             <h1>CODIE: Dustin's sweet Goddess</h1>
           </div>
+          <div classname="logo-container">
           <Image src={codieLogo} alt="Pretty girl" />
+          </div>
           <div className="header-subtitle">
             <h2>Digging out codie's guts one pound at a time</h2>
           </div>
