@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import codieLogo from '../assets/codie-logo.png';
-import codie2Logo from '../assets/codie2-logo.png';
 import trueloveLogo from '../assets/truelove-logo.png';
+import codie2Logo from '../assets/codie2-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
