@@ -154,7 +154,7 @@ const Home = () => {
         />
         <div className="prompt-container">
           <textarea
-            placeholder="Hello how much does Dustin like you? just ask?"
+            placeholder="Hello how much does Dustin like you? just ask!"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
