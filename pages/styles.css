@@ -7,6 +7,10 @@ body {
     color: #fff;
 }
 
+Image {
+    margin: 10px;
+}
+
 .label{
     color: white;
 }
