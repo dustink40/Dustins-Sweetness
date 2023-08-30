@@ -135,8 +135,8 @@ const Home = () => {
           </div>
           <div classname="logo-container">
           <Image style={{margin: 10}} src={codieLogo} alt="Pretty girl" />
-          <Image src={codie2Logo} alt="Pretty girl" />
-          <Image src={codie4Logo} alt="Pretty girl" />
+          <Image style={{margin: 10}} src={codie2Logo} alt="Pretty girl" />
+          <Image style={{margin: 10}} src={codie4Logo} alt="Pretty girl" />
           </div>
           <div className="header-subtitle">
             <h2>Digging out codie's guts one pound at a time</h2>
