@@ -37,8 +37,8 @@ const generateAction = async (req, res) => {
     const baseCompletion = await openai.createCompletion({
       model: 'text-davinci-003',
       prompt: `${basePrompt}${req.body.userInput}`,
-      temperature: 0.8,  //this is where you allow creative freedom up to chatgpt, the lower the number the more strict the bot will stay to your base prompt, although it gets repetitive and robotic, the higher the number the wilder the responses will be
-      max_tokens: 500,   //this is the maximum amount of tokens that can be used per each API call. Adding more does not neccessarily mean it will get a longer promp
+      temperature: 0.9,  //this is where you allow creative freedom up to chatgpt, the lower the number the more strict the bot will stay to your base prompt, although it gets repetitive and robotic, the higher the number the wilder the responses will be
+      max_tokens: 1000,   //this is the maximum amount of tokens that can be used per each API call. Adding more does not neccessarily mean it will get a longer promp
     });
 
     const basePromptOutput = baseCompletion.data.choices.pop();
